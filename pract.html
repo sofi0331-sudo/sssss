@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Практическая работа номер 7</title>
+</head>
+<body>
+    <FORM>
+        <H3>Введи текст
+            <BR>
+            <TEXTAREA name="feedback" rows=5 cols=30>Область для ввода текста</TEXTAREA>
+        </H3>
+        <INPUT type="reset" value="очистка">
+    </FORM>
+
+    <HR> <P>Выберите элемент из списка:</P>
+    <SELECT size=1>
+        <OPTION selected value=1> Первый </OPTION>
+        <OPTION value=2>Второй   </OPTION>
+        <OPTION value=3>Третий   </OPTION>
+        <OPTION value=4>Четвертый   </OPTION>
+    </SELECT>
+
+    <HR>
+
+    <P><B>Анкета пользователя:</B></P>
+    <FORM action="mailto:your-email@example.com" method="post">
+        <LABEL for="firstname">Имя: </LABEL>
+        <INPUT type="text" id="firstname"><BR>
+
+        <LABEL for="lastname">Фамилия: </LABEL>
+        <INPUT type="text" id="lastname"><BR>
+
+        <LABEL for="email">e-mail: </LABEL>
+        <INPUT type="text" id="email"><BR>
+
+        <P>Ваш пол:</P>
+        <INPUT type="radio" name="sex" value="Мужской"> Мужской<BR>
+        <INPUT type="radio" name="sex" value="Женский"> Женский<BR>
+
+        <BR>
+        <INPUT type="submit" value="Отправить"> 
+        <INPUT type="reset" value="Сбросить">
+    </FORM>
+
+</body>
+</html>
